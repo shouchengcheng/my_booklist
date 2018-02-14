@@ -90,9 +90,51 @@ y<-x[x%%4==0]
 *** 编程基础
 **** 基本语法
 ***** if分支
+
+if语句的形式，需要特别注意书写格式，格式不对，会报错
+#+BEGIN_SRC R
+if(logical_expression){
+expression_1
+...
+}else{
+expression_2
+...
+}
+#+END_SRC
+
 ***** for循环
+
+x是一个简单的变量，vector是一个向量，每次循环重复时，使用x取vector中每个元素的值
+
+#+BEGIN_SRC R
+for(x in vector){
+expression_1
+...
+}
+#+END_SRC
+
 ***** while循环
+
+语法格式和C语言中一样
+
+#+BEGIN_SRC R
+while(logical_expression){
+expression_1
+...
+}
+#+END_SRC
+
+***** 向量化编程
+
+有些执行逻辑可以使用向量化运算来替代循环，向量化运算使得计算更有效率并且更加简洁
+
+***** 基础调试
+
+- 可以使用 =cat()= 来打印运行过程中需要查看的ver值
 **** 输入与输出
+
+- 可以通过 =help(write)= 查看传递参数格式及内容
+
 **** 函数化编程
 **** 复杂数据结构
 **** 绘图
