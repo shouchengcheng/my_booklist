@@ -28,9 +28,9 @@
     - [ ] 银行卡里有10w积蓄
     - [ ] 找到一个可以结婚的女朋友
       
-*** 读书清单[1/8]
-    - [X] 代码之殇[[../book_notes/代码之殇.pdf]]
-    - [ ] half girlfriend
+*** 读书清单[2/11]
+    - [X] 代码之殇 [[../book_notes/代码之殇.pdf][阅读笔记]]
+    - [X] half girlfriend [[../book_notes/half_girlfriend.org][half girlfriend notes]]
     - [ ] 沉默的大多数
     - [ ] 爱你就像爱生命
     - [ ] 中国的修养
