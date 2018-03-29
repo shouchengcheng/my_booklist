@@ -27,10 +27,10 @@
     - [ ] 找到一个可以结婚的女朋友
     - [ ] 学会双盘
       
-*** 读书清单[5/11]
+*** 读书清单[6/12]
     - [X] 代码之殇 [[../book_notes/代码之殇.pdf][阅读笔记]]
     - [X] half girlfriend [[../book_notes/half_girlfriend.org][half girlfriend notes]]
-    - [ ] 沉默的大多数
+    - [X] 沉默的大多数
     - [ ] 爱你就像爱生命
     - [ ] 中国的修养
     - [ ] 相对论
