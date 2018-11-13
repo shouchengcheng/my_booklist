@@ -1,0 +1,48 @@
+* golang学习笔记
+** 基本介绍
+
+*** 好处
+    + 拥有自动垃圾回收
+    + 包系统
+    + 函数作为一等公民
+    + 词法作用域
+    + 系统调用接口
+    + 制度的UTF8字符串
+    + 向后兼容
+*** 不足
+    + 没有隐式数值转换
+    + 没有构造函数和析构函数
+    + 没有运算符重载
+    + 没有默认参数
+    + 没有继承
+    + 没有泛型
+    + 没有异常
+    + 没有宏
+    + 没有函数修饰
+    + 没有线程局部存储
+
+** 常用信息
+#+BEGIN_SRC go
+go run helloworld.go
+
+go build helloworld.go
+#+END_SRC
+
+#+BEGIN_SRC go
+for initialization; condition; post{
+}
+
+// while
+for condition{
+}
+
+// while(1)
+for {
+}
+
+var s string
+var s = ""
+var s string = ""
+s := "" // 只能用在函数内部
+#+END_SRC
+for语句中大括号强制和post同一行
